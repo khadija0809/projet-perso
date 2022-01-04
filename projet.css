@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+   
+}
+.logo{
+     /* float: left;
+    height:auto;
+    /* width: 179 px; */
+    /* display: block;
+    width: 320px; 
+    height: 80px;
+    margin-top: 305px; */
+    width: 142px;
+    height: 90px;
+}
+
+a:hover{
+    background-color:#CE8F8A;
+} 
+header{
+    background-image: url(images/morceau\ chokolat.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+nav{
+    background-color:#6d2f1d54;
+    padding: 16px;
+    text-transform: capitalize;
+    margin-top: 375px;
+}
+a{ 
+   
+    display:inline-block;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    color:white;
+}
+
+
+li{
+    list-style-type:none;
+
+
+    
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: rgb(49, 25, 25);
+    font-family: cursive;
+    top: 42%;
+}
+span{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#E1A624;
+}
+.titre{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+.part1{
+    position: absolute;
+    top: 22%;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+.part2{
+    position: absolute;
+    top: 4%;
+}
+.part1:last-child{
+    background-color: wheat;
+    opacity: 80%;
+}
+.photo img ,.photo2 img ,.photo3 img{
+    width: 595px;
+    height: 450px;
+    float: right;
+    border-bottom-right-radius: 70px;
+    border-top-right-radius: 70px;
+}
+.part3 img{
+    width: 100%;
+    height: auto;
+}
+.part3 p{
+    text-align: center;
+    color:black;
+    font-family:cursive;
+ 
+
+}
+.text{
+    width: 1200px;
+    height: 450px;
+    /* background-color:aquamarine; */
+    margin: 7px auto;
+}
+.parentdesc,.photo{
+    width: 50%;
+    height: 450px;
+    position: relative;
+    float: left;
+}
+.parentdesc{
+    background-color: antiquewhite;
+    border-bottom-left-radius: 70px;
+    border-top-left-radius: 70px;
+}
+/* .photo{
+    background-color: beige;
+    border-bottom-right-radius: 70px;
+    border-top-right-radius: 70px;
+} */
+
+.description{
+    width: 350px;
+    height:260px;
+    margin-top: 300px;
+    position: absolute;
+    top:-130px;
+    margin-left: 70px;
+}
+.description p  {
+    text-align: center;
+    margin-top: -36px;
+    margin-bottom: 30px;
+    /* font-size: 14px; */
+    font-size:x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.text2{
+    width: 1200px;
+    height: 450px;
+    /* background-color:aquamarine; */
+    margin: 7px auto;
+}
+.parentdesc2,.photo2{
+    width: 50%;
+    height: 450px;
+    position: relative;
+    float: left;
+}
+.parentdesc2{
+    background-color: antiquewhite;
+    border-bottom-left-radius: 70px;
+    border-top-left-radius: 70px;
+}
+.description2{
+    width: 350px;
+    height:260px;
+    margin-top: 300px;
+    position: absolute;
+    top:-130px;
+    margin-left: 70px;
+}
+.description2 p {
+    text-align: center;
+    margin-top: -36px;
+    margin-bottom: 30px;
+    /* font-size: 14px; */
+     font-size:x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+
+ }  
+/* .photo2 img {
+    width: 595px;
+    height: 450px;
+    float: right;
+    border-bottom-right-radius: 70px;
+    border-top-right-radius: 70px;
+} */
+.text3{
+    width: 1200px;
+    height: 450px;
+    /* background-color:aquamarine; */
+    margin: 7px auto;
+}
+.parentdesc3,.photo3{
+    width: 50%;
+    height: 450px;
+    position: relative;
+    float: left;
+}
+.parentdesc3{
+    background-color: antiquewhite;
+    border-bottom-left-radius: 70px;
+    border-top-left-radius: 70px;
+}
+.description3{
+    width: 350px;
+    height:260px;
+    margin-top: 300px;
+    position: absolute;
+    top:-130px;
+    margin-left: 70px;
+}
+ .description3 p {
+    text-align: center;
+    margin-top: -36px;
+    margin-bottom: 30px;
+    
+    font-size:x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+} 
+/* .photo3 img {
+    width: 595px;
+    height: 450px;
+    float: right;
+    border-bottom-right-radius: 70px;
+    border-top-right-radius: 70px;
+} */
+h2 {
+    color: white;
+    height: 100px;
+    width: 100%;
+    background-color:burlywood;
+    padding-top: 27px;
+    text-align: center;
+}
+
+
+
+ /* .img{
+    width: 101%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.galerie{
+     background-image: url(images/table.jfif);
+     display: flex;
+     justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(122, 128, 134, 0.863);
+ }
+.galerie > div{
+    display: flex;
+    width: 25%;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}  */
